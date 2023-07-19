@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 :root{
   --text-color: #000;
@@ -47,7 +48,7 @@ body{
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
 }
-.laptop,.mainText{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+.laptop,.mainText,.cardText,.cardCont{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
 }
 
 
@@ -79,3 +80,18 @@ to {
 }
 
 
+
+html::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  cursor: pointer;
+  background-color: transparent;
+  background-color: var(--color2);
+}
+
+html::-webkit-scrollbar-thumb{
+   background-color: var(--color3);
+   width: 10px;
+   border-radius:20px ;
+   cursor: pointer;
+}

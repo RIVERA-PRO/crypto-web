@@ -1,0 +1,155 @@
+
+.TeamContain{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.TeamContain h2{
+    text-align: center;
+    padding: 100px 0px 10px 0px;
+    font-size: 30px;
+    color: var(--color3);
+}
+
+.TeamContain span{
+    text-align: center;
+    color: var( --text-color2);
+    font-size: 17px;
+}
+
+.teamCards{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: .6em;
+    padding: 150px 1%;
+    place-content: center;
+    height: 100%;
+    gap: 2rem;
+}
+
+.cardTeam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    transition: all 0.25s;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: var(--blanco);
+    box-shadow: 0 3px 40px #1a1e251d;
+    height: 25rem;
+    gap: 2rem;
+    overflow: hidden;
+    transition: all 0.25s;
+}
+
+.cardTeam img{
+    width: 150px;
+    border-radius: 100%;
+    align-self: center;
+   
+}
+
+.cardTeam h4{
+    color: var(--color3);
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.cardTeam p{
+    color: var( --text-color2);
+    font-size: 15px;
+}
+
+.redes-sociales a{
+    padding:10px ;
+    background-color:var( --text-color2); 
+    margin: 10px;
+    color: var(--blanco);
+    border-radius: 100%;
+
+}
+
+.redes-sociales {
+    padding-top: 20px;
+}
+.redes-sociales a:hover{
+    background-color:var( --color2); 
+}
+.cardText img{
+    width: 70px;
+ }
+.cardText{
+       z-index: 2;
+       max-height: 30vh;
+      background-color:var( --blanco); 
+      overflow-y: scroll;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      transition: all 0.25s;
+}
+.cardText p{
+    font-size: 14px;
+    padding: 0px 10%;
+}
+.cardCont{
+    max-height: 30vh;
+    transition: all 0.25s;
+}
+.cardText{
+
+    transition: all 0.25s;
+    display: none;
+ } 
+.cardTeam:hover .cardText{
+   display: flex;
+   transition: all 1.25s;
+   -webkit-transition: all 1.25s;
+   -moz-transition: all 1.25s;
+   -ms-transition: all 1.25s;
+   -o-transition: all 1.25s;
+} 
+.cardTeam:hover .cardCont{
+    display: none;
+    transition: all 1.25s;
+    -webkit-transition: all 1.25s;
+    -moz-transition: all 1.25s;
+    -ms-transition: all 1.25s;
+    -o-transition: all 1.25s;
+} 
+
+ 
+.cardText::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+    cursor: pointer;
+    background-color: transparent;
+
+  }
+  
+.cardText::-webkit-scrollbar-thumb{
+     background-color: var(--color3);
+     width: 10px;
+     border-radius:20px ;
+     cursor: pointer;
+  }
+
+
+
+
+
+
+  
+  
