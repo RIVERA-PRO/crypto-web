@@ -18,6 +18,7 @@
     gap: 10px;
 }
 
+
 @media (max-width: 1024px) {
     .form button{
      
@@ -31,3 +32,4 @@
  
       }
 }
+
