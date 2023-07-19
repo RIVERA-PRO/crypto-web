@@ -4,4 +4,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.heroContent{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    padding: .7em;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
+    align-items: center;
+}
+.laptop img{
+    width: 100%;
 }
