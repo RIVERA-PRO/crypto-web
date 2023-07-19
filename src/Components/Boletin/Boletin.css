@@ -1,0 +1,54 @@
+.BoletinoContain{
+    background:linear-gradient(30deg, var(--color1), var(--color2));
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    padding: 100px 10%;
+    place-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: 30vh;
+    color: var(--blanco);
+}
+.BoletinoContain h2{
+  
+    font-weight: 200;
+    font-size: 34px;
+    padding: 20px 0px 20px 0px;
+}
+
+.BoletinoContain p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+fieldset{
+    background-color: #ffffff2d;
+    border: none;
+    border-radius: 30rem;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+}
+
+.formBoletin button{
+    background-color: var(--blanco);
+    border: none;
+    cursor: pointer;
+    padding: 18px 40px;
+}
+
+.formBoletin input{
+    background-color: transparent;
+    border: none;
+    padding: 10px 30px;
+    width: 100%;
+    color: var(--blanco);
+}
+
+.formBoletin input::placeholder {
+    color: var(--blanco);
+  }
