@@ -1,0 +1,106 @@
+.ComienceContain{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.ComienceContain h2{
+    text-align: center;
+    padding: 100px 0px 10px 0px;
+    font-size: 30px;
+    color: var(--color3);
+}
+.ComienceContain span{
+    text-align: center;
+    color: var( --text-color2);
+    font-size: 17px;
+}
+
+.ComienceContent{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
+    padding: 60px 10%;
+    place-content: center;
+    height: 100%;
+    gap: 4rem;
+}
+.ComCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    transition: all 0.25s;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: var(--blanco);
+    box-shadow: 0 3px 40px #1a1e251d;
+    height: 15rem;
+    gap: 10px;
+}
+.ComCard img{
+    object-fit: cover;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+   
+}
+.ComCard h4{
+    color: var(--color3);
+}
+
+.ComCard p{
+    color: var(--color3);
+    color: var( --text-color2);
+}
+.ComCard:hover{
+    transform: translateY(-15px);
+    transition: all 0.25s;
+    background-color: rgba(0, 255, 255, 0.193);
+    cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    position: absolute;
+    margin-top: -5rem;
+    z-index: 2;
+}
+@media (max-width: 1024px) {
+    .ComienceContain{
+        height: 100%;
+      
+    }
+    .line{
+        display: none;
+    }
+
+    
+.ComienceContain h2{
+  
+    font-size: 25px;
+
+}
+.ComienceContain span{
+   
+    font-size: 14px;
+}
+.ComCard p{
+    font-size: 14px;
+}
+}
