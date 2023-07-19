@@ -16,7 +16,7 @@
     grid-auto-rows: max-content;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     gap: 2rem;
-    padding: 0px 10%;
+    padding: 60px 10%;
     place-content: center;
     
 }
@@ -55,5 +55,28 @@
 .CaracteristicasConatin span{
     display: flex;
    justify-content: center;
+   text-align: center;
    padding: 20px 0px 10px 0px;
+}
+
+@media (max-width: 1024px) {
+    .CaracteristicasConatin{
+        height: 100%;
+      
+    }
+
+    .CaracteristicasConatin h2{
+        text-align: center;
+        padding: 100px 0px 10px 0px;
+        font-size: 25px;
+    }
+    .CaracteristicasConatin span{
+        display: flex;
+       justify-content: center;
+       padding: 20px 6% 10px 6%;
+     
+       text-align: center;
+    }
+
+    
 }
