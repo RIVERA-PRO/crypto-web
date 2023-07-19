@@ -1,0 +1,89 @@
+.NoticiasContain{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.NoticiasContain h2{
+    text-align: center;
+    padding: 100px 0px 10px 0px;
+    font-size: 40px;
+    color: var(--color3);
+}
+
+.NoticiasContain span{
+    text-align: center;
+    color: var( --text-color2);
+    font-size: 17px;
+}
+
+.NoticiasContent{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding: 150px 9%;
+    place-content: center;
+    height: 100%;
+    gap: 3rem;
+    transition: all 0.25s;
+
+}
+
+.cardNoticias{
+    overflow: hidden;
+    box-shadow: 0 3px 40px #1a1e251d;
+    border-radius: 6px;
+    transition: all 0.25s;
+    background-color: var(--blanco);
+}
+.cardNoticias img{
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+.cardNoticiasText{
+    padding: 20px;
+}
+
+
+.cardNoticias:hover{
+    transform: translateY(-15px);
+    transition: all 0.25s;
+    box-shadow: 2px 10px 20px #1a1e2553;
+
+}
+
+.cardNoticiasText h5{
+    color: var(--color2);
+    padding: 10px 0px 10px 0px;
+}
+
+.cardNoticiasText h3{
+    color: var(--color3);
+    padding: 10px 0px 10px 0px;
+}
+
+.deGrid{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    padding: 10px 0%;
+    place-content: center;
+    gap: 10px;
+    transition: all 0.25s;
+    font-size: 13px;
+  color: var(--text-color2);
+}

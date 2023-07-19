@@ -6,7 +6,9 @@
     justify-content: center;
     flex-direction: column;
 }
-
+.CaracteristicasConatin h2{
+    font-size: 40px;
+}
 .caractContent{
     margin: auto;
     width: 100%;
