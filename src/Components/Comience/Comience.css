@@ -1,5 +1,5 @@
 .ComienceContain{
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,9 +27,9 @@
     border-radius: 1em;
     display: grid;
     grid-auto-rows: max-content;
-    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: .6em;
-    padding: 60px 10%;
+    padding: 150px 6%;
     place-content: center;
     height: 100%;
     gap: 4rem;
@@ -73,12 +73,15 @@
 }
 
 .line{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
     gap: 10rem;
     position: absolute;
-    margin-top: -5rem;
+    margin-top: -5%;
     z-index: 2;
 }
 @media (max-width: 1024px) {
