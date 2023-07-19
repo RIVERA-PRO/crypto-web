@@ -10,7 +10,7 @@
     place-content: center;
     align-items: center;
     gap: 4rem;
-    height: 30vh;
+    height: 100%;
     color: var(--blanco);
 }
 .BoletinoContain h2{
@@ -51,4 +51,23 @@ fieldset{
 
 .formBoletin input::placeholder {
     color: var(--blanco);
+  }
+
+  @media (max-width: 1024px) {
+    fieldset{
+      
+        width: 100%;
+
+    }
+
+    .BoletinoContain{
+        text-align: center;
+    }
+
+    .BoletinoContain h2{
+  
+    
+        font-size: 27px;
+   
+    }
   }
