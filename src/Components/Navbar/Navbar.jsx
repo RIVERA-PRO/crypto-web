@@ -40,7 +40,6 @@ export default function Navbar() {
                         <Anchor to={`/`} >Solucion</Anchor>
                         <Anchor to={`/`} >Caracteristicas</Anchor>
                         <Anchor to={`/`} >Noticias</Anchor>
-                        <Anchor to={`/`} >Acerca de</Anchor>
                         <Anchor to={`/`} >Contacto</Anchor>
                     </div>
 

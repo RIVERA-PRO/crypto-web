@@ -4,7 +4,7 @@ export default function ButtonRegister() {
     return (
         <div>
 
-            <button> Register</button>
+            <button className='btnRegister'> Registrate gratis</button>
 
         </div>
     )

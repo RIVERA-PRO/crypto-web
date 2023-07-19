@@ -1,0 +1,33 @@
+.form button{
+    background:linear-gradient(30deg, var(--color1), var(--color2));
+    border-radius: 20rem;
+    padding: 13px 40px;
+    color: var(--blanco);
+    border: none;
+    cursor: pointer;
+}
+.form input{
+  background-color: var( --bg-color);
+  border-radius: 20rem;
+  padding: 13px ;
+  width: 20rem;
+  border: none;
+}
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 1024px) {
+    .form button{
+     
+        padding: 13px 30px;
+  
+    }
+
+    .form input{
+       
+        width: 16rem;
+ 
+      }
+}

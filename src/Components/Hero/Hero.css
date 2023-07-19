@@ -1,5 +1,5 @@
 .heroContain {
-    background-image: url(../../img/hero-bg.png);
+    background-image: url(../../img/hero.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,14 +14,66 @@
     margin: auto;
     width: 100%;
     overflow: hidden;
-    padding: .7em;
     border-radius: 1em;
     display: grid;
     grid-auto-rows: max-content;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     gap: .6em;
-    align-items: center;
+    padding: 0px 10%;
+    padding-top: 40vh;
+    place-content: center;
 }
 .laptop img{
     width: 100%;
+}
+
+.heroText h1{
+    font-weight: 200;
+    font-size: 65px;
+    color: var(--color3);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0px 30px 0px;
+}
+
+.heroText span{
+   
+    color: var(--color2);
+}
+
+.heroText p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var( --text-color2);
+    font-size: 18px;
+    padding: 20px 0px 30px 0px;
+}
+@media (max-width: 1024px) {
+    .heroContain {
+        background-image: url(../../img/hero-bg2.png);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .heroText h1{
+      
+        font-size: 40px;
+       
+    }
+   
+    
+    
+    .heroText p{
+
+        font-size: 14px;
+    }
+
+    .heroContent{
+     
+        padding-top: 20vh;
+       gap: 40px;
+    }
 }
