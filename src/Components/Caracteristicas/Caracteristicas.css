@@ -1,0 +1,82 @@
+.CaracteristicasConatin{
+    height: 100vh;
+    background:linear-gradient(80deg, var(--color1), var(--color2));
+    color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caractContent{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 2rem;
+    padding: 60px 10%;
+    place-content: center;
+    
+}
+
+.card{
+    padding: 20px;
+    transition: all 0.25s;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.card a{
+    color: var(--blanco);
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.card p{
+    padding: 20px 0px 10px 0px;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: all 0.25s;
+    background-color: rgba(0, 255, 255, 0.193);
+
+}
+
+.CaracteristicasConatin h2{
+    text-align: center;
+    padding: 100px 0px 10px 0px;
+    font-size: 30px;
+}
+.CaracteristicasConatin span{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 20px 0px 10px 0px;
+}
+
+@media (max-width: 1024px) {
+    .CaracteristicasConatin{
+        height: 100%;
+      
+    }
+
+    .CaracteristicasConatin h2{
+        text-align: center;
+        padding: 100px 0px 10px 0px;
+        font-size: 25px;
+    }
+    .CaracteristicasConatin span{
+        display: flex;
+       justify-content: center;
+       padding: 20px 6% 10px 6%;
+     
+       text-align: center;
+    }
+
+    
+}

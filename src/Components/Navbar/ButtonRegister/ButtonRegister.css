@@ -1,0 +1,18 @@
+.btnRegister{
+    background-color: transparent;
+  
+    border: 1px solid var(--blanco);
+    border-radius: 10rem;
+    padding: 15px 30px;
+    margin: 20px;
+    color: var(--blanco);
+    font-weight: 500;    
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btnRegister:hover{
+   background-color: var(--blanco);
+   transition: all 0.2s linear;
+   color: var(--color2);
+}

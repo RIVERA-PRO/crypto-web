@@ -1,0 +1,64 @@
+.mainContain{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
+    padding: 100px 10%;
+    place-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 70vh;
+}
+
+.imgBitcoin{
+    width: 100%;
+}
+
+.imgBitcoin img{
+    width: 100%;
+}
+
+.mainText h2{
+    color: var(--color3);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 34px;
+    padding: 20px 0px 20px 0px;
+}
+
+.mainText p{
+    color: var( --text-color2);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 16.6px;
+    padding: 10px 0px 10px 0px;
+}
+.pColor{
+    font-size: 20px!important;
+    color: var(--color3)!important;
+}
+.mainText{
+    width: 90%;
+}
+
+.btn{
+    background:linear-gradient(30deg, var(--color1), var(--color2));
+    border-radius: 20rem;
+    padding: 13px 40px;
+    color: var(--blanco);
+    border: none;
+    cursor: pointer;
+   margin-top: 20px;
+}
+
+@media (max-width: 1024px){
+    .mainContain{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+}

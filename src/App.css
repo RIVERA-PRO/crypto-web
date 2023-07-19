@@ -5,9 +5,76 @@
 }
 :root{
   --text-color: #000;
-  --bg-color: #111111;
-  --color1:#f67831;
-  --color2:#eb3c5a;
+  --text-color2:#75849a;
+  --bg-color: #FAFAFA;
+  --color1:#3e2bce;
+  --color2:#2dd3aa;
+  --color3:#20509e;
   --blanco: #fff;
 }
+
+body{
+  background-color: var(--bg-color);
+}
+@keyframes slideFromLeft {
+  from {
+      opacity: 0;
+      transform: translateX(-20%);
+      -webkit-transform: translateX(-20%);
+      -moz-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+      -o-transform: translateX(-20%);
+}
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.heroText {
+  opacity: 0;
+  animation: slideFromLeft 1s ease-in-out forwards;
+  -webkit-animation: slideFromLeft 1s ease-in-out forwards;
+}
+.laptop{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+}
+
+
+
+@keyframes slideFromRight {
+  from {
+      opacity: 0;
+     
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideFromCenter {
+from {
+    opacity: 0;
+   
+}
+to {
+    opacity: 10;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+}
+
 
